@@ -21,6 +21,7 @@ public class SpringFoxConfig {
                 .build();
     }
 
+    //http://localhost:8080/swagger-ui/index.html
 
 }
 
