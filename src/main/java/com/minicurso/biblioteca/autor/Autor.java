@@ -3,6 +3,7 @@ package com.minicurso.biblioteca.autor;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.minicurso.biblioteca.livro.Livro;
+import com.sun.istack.NotNull;
 import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -15,7 +16,7 @@ import java.util.List;
 
 @Entity
 @Data
-@Table(name = "AUTOR")
+@Table
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Autor {
 
@@ -24,6 +25,7 @@ public class Autor {
     private Long id;
 
     private String nome;
+    private String cpf;
 
     @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL)
     @JsonIgnore
