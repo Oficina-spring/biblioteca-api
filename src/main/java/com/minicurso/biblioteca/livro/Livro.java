@@ -2,7 +2,11 @@ package com.minicurso.biblioteca.livro;
 
 import com.minicurso.biblioteca.autor.Autor;
 import lombok.Data;
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.FetchType;
 
 @Entity
 @Data
@@ -14,7 +18,7 @@ public class Livro {
 
     private String nome;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     private Autor autor;
 
     private String nomeAutor;
