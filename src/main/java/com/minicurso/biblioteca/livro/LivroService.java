@@ -24,7 +24,7 @@ public class LivroService {
     }
 
     public Livro buscarPorId(Long id) {
-        return livroRepository.findById(id).get();
+        return (livroRepository.findById(id).isPresent()? livroRepository.findById(id).get() : null);
     }
 
     public List<Livro> listar() {
