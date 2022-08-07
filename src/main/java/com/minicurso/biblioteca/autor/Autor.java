@@ -1,6 +1,7 @@
 package com.minicurso.biblioteca.autor;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.minicurso.biblioteca.livro.Livro;
 import lombok.Data;
 import javax.persistence.Entity;
@@ -15,6 +16,7 @@ import java.util.List;
 @Entity
 @Data
 @Table(name = "AUTOR")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Autor {
 
     @Id
