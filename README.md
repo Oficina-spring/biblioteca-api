@@ -1,3 +1,4 @@
+![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) 
 # Sistema de compras
 
 ## Sumário
