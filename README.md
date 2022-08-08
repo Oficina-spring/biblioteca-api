@@ -1,4 +1,4 @@
-![DevSuperior logo]([https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)) Oficina Spring
+![DevSuperior logo]((https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)) Oficina Spring
 
 
 ## Sumário
