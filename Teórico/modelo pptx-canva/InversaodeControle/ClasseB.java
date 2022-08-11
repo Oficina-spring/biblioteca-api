@@ -4,6 +4,6 @@ public class ClasseB{
 
 
     public String metodoB(){
-       return System.out.println("Sou método de B.");
+        return "Sou Método de B";
     }
 }
