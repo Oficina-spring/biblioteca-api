@@ -7,7 +7,9 @@ public class ClasseA{
     // injeção de dependencia pelo construtor
     public ClasseA(ClasseB classeB) {
         this.classeB = classeB;
+    
     }
+
 
 
 
