@@ -1,7 +1,7 @@
 ## Biblioteca API
 > *Criação de uma API básica para despertar curiosidade sobre o ecossistema Spring*
 
-![spring](https://raw.githubusercontent.com/martaago/assets/main/spring.png?token=GHSAT0AAAAAABTQLGX5ZYNWGQQ3X3K3VEJGYXYKOPA)
+![](https://raw.githubusercontent.com/martaago/assets/main/spring.png?token=GHSAT0AAAAAABTQLGX5ZYNWGQQ3X3K3VEJGYXYKOPA)
 
 
 ## Sumário
