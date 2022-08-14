@@ -1,4 +1,7 @@
-![DevSuperior logo]((https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)) Oficina Spring
+## Biblioteca API
+> *Criação de uma API básica para despertar curiosidade sobre o ecossistema Spring*
+
+![logo](https://raw.githubusercontent.com/martaago/assets/main/spring.png?token=GHSAT0AAAAAABTQLGX5ZYNWGQQ3X3K3VEJGYXYKOPA)
 
 
 ## Sumário
