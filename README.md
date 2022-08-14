@@ -1,10 +1,13 @@
 ## Biblioteca API
 > *Criação de uma API básica para despertar curiosidade sobre o ecossistema Spring*
 
-![spring](https://github.com/martaago/assets/blob/main/spring.png))
+![spring](https://github.com/martaago/assets/blob/main/spring.png)
 
+## Iniciando um projeto Spring Boot
 
-## Sumário
+Vamos utilizar o Spring Initializr para definir configurações iniciais
+
+https://start.spring.io/
 
 - [Como começar](#getting-started)
     - [Requerimentos](#requirements)
