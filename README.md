@@ -14,6 +14,8 @@ https://start.spring.io/
 - Data JPA
 - test (padrão)
 
+### IDE
+- IntelliJ IDEA
 
 
 
