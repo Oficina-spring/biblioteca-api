@@ -5,9 +5,18 @@
 
 ## Iniciando um projeto Spring Boot
 
-Vamos utilizar o Spring Initializr para definir configurações iniciais
+Vamos utilizar o Spring Initializr para definir as configurações iniciais:
 
 https://start.spring.io/
+
+### Dependências iniciais
+- Web
+- Data JPA
+- test (padrão)
+
+
+
+
 
 - [Como começar](#getting-started)
     - [Requerimentos](#requirements)
