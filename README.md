@@ -3,8 +3,8 @@
 
 ![spring](https://github.com/martaago/assets/blob/main/spring.png)
 
-diagrama de classes 
-https://raw.githubusercontent.com/Oficina-spring/biblioteca-api/develop_v2/src/main/java/com/minicurso/biblioteca/doc/diagrama.png
+
+![spring]([https://github.com/martaago/assets/blob/main/spring.png](https://raw.githubusercontent.com/Oficina-spring/biblioteca-api/develop_v2/src/main/java/com/minicurso/biblioteca/doc/diagrama.png))
 
 ## Iniciando um projeto Spring Boot
 
