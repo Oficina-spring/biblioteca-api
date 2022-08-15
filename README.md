@@ -15,7 +15,7 @@ https://start.spring.io/
 ### Dependências iniciais
 - Web
 - Data JPA
-- test (padrão)
+- H2 DataBase
 
 ### IDE
 - IntelliJ IDEA
