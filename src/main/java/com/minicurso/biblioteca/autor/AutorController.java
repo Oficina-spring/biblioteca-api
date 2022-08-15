@@ -37,8 +37,9 @@ public class AutorController {
     }
 
     @GetMapping("/listar")
-    public List<Autor> listar(){
-        return autorService.listar();
+    public ResponseEntity<List<Autor>> listar(){
+        List<Autor> lista = autorService.listar();
+        return ((lista != null && !lista.isEmpty()) ? ResponseEntity.ok(lista) : ResponseEntity.status(HttpStatus.NO_CONTENT).build());
     }
 
     @GetMapping("/buscarPorId/{id}")

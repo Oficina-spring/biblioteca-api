@@ -3,7 +3,6 @@ package com.minicurso.biblioteca.autor;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.minicurso.biblioteca.livro.Livro;
-import com.sun.istack.NotNull;
 import lombok.Data;
 import javax.persistence.Entity;
 import javax.persistence.Table;
