@@ -68,7 +68,7 @@ https://start.spring.io/
 ```
 ## Arquivo de configuração: application.properties
 
-```
+```properties
 #H2
 spring.h2.console.enabled=true
 spring.h2.console.path=/h2-console
