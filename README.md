@@ -1,9 +1,6 @@
 ## Biblioteca API
 > *Criação de uma API básica para despertar curiosidade sobre o ecossistema Spring*
 
-![spring](https://github.com/martaago/assets/blob/main/spring.png)
-
-
 ![diagrama](https://raw.githubusercontent.com/Oficina-spring/biblioteca-api/develop_v2/src/main/java/com/minicurso/biblioteca/doc/diagrama.png)
 
 ## Iniciando um projeto Spring Boot
@@ -69,8 +66,23 @@ https://start.spring.io/
 	</dependencies>
 
 ```
+## Arquivo de configuração: application.properties
 
-## Classe de configuração 
+```
+#H2
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# Datasource
+spring.datasource.url=jdbc:h2:mem:biblioteca
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.datasource.driver-class-name=org.h2.Driver
+spring.jpa.hibernate.ddl-auto=update
+
+spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
+```
+## Classe de configuração: Swagger
 
 ```java
 package com.minicurso.biblioteca.config;
